@@ -49,6 +49,47 @@ ul li{
     height: 5px;
     background-color: white
 }
+.container {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap
+}
+.square {
+    position: relative;
+    width: 275px;
+    height: 267px;
+    text-align: center;
+}
+.photo{
+    color:#ffffff;
+    display: flex;
+    position: relative;
+    font-size: 36px;
+    line-height: 26px;
+    justify-content: center;
+    overflow:hidden;
+}
+.imgPhoto {
+    background: url(img/photo1.jpg) no-repeat center
+}
+.imgTree {
+    background: url(img/photo5.jpg) no-repeat center
+}
+.imgWay {
+    background: url(img/photo7.jpg) no-repeat center
+}
+.withoutimg {
+    background-color: #f35e59;
+}
+.project {
+    font-size: 26px;
+    margin-bottom: 0px;
+}
+.white {
+    color: white;
+}
 
 .lowblock {
     padding-top: 100px;
@@ -109,8 +150,10 @@ ul li{
     background-color: #de2b24;
     border: 0px;
 }
-
-.triangle {
+    .letter:hover {
+        color: black;
+    }
+    .triangle {
     width: 0;
     height: 0;
     margin-top:25px;
