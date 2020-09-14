@@ -1,0 +1,257 @@
+h1,p {
+    margin: 0;
+}
+li {
+    list-style-type: none;
+}
+body {
+    background-color:#6f6767;
+}
+
+ul {
+    margin-top:28px;
+    margin-left: 0;
+    padding-left: 0;
+    text-align: center;
+}
+
+ul li{
+    display:inline-block;
+}
+
+.topblock {
+    margin-top: 0px;
+    width: 1600px;
+    height: 870px;
+    padding-top: 110px;
+    background-color: #de2b24
+}
+
+.headline {
+    text-align: center;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: white
+}
+
+.middle {
+    margin: 5px;
+    text-align: center;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 20px;
+    color: #ffffff
+}
+
+.smallblock {
+    margin-top: 18px;
+    width: 50px;
+    height: 5px;
+    background-color: white
+}
+
+.lowblock {
+    padding-top: 100px;
+    margin-top: 0px;
+    width: 1600px;
+    height: 870px;
+    background-color: #1287bf
+}
+.center {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+
+.blackblock {
+    margin-top: 0px;
+    padding-top: 110px;
+    width: 1600px;
+    height: 490px;
+    background-color: #2a2a2a;
+    align-content: center
+}
+.greyblock {
+    margin-top: 0px;
+    padding-top: 40px;
+    width: 1600px;
+    height: 66px;
+    background-color: #515151
+}
+.round {
+    margin-top: 20px;
+    width: 64px;
+    height: 64px;
+    border: 4px solid white;
+    border-radius: 50%;
+    background: url(img/arrow.png) no-repeat center;
+}
+.redround {
+    position: absolute;
+    top: 310px;
+    right: 445px;
+    width: 55px;
+    height: 55px;
+    border: 4px solid red;
+    border-radius: 50%;
+    background: #de2b24;
+}
+.letter {
+    text-align: center;
+    width: 20px;
+    height: 10px;
+    margin-top: 10px;
+    margin-left: 0px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 30px;
+    color: white;
+    background-color: #de2b24;
+    border: 0px;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    margin-top:25px;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 40px solid white;
+}
+
+.whiteblock {
+    margin-top: 0px;
+    width: 40%;
+    height: 450px;
+    padding-top: 55px;
+    background-color: white;
+    align-content: center
+}
+.facebook {
+    background: url(icons/icon8.png) no-repeat center;
+}
+
+.twitter {
+    background: url(icons/icon9.png) no-repeat center;
+}
+
+.google {
+    background: url(icons/icon10.png) no-repeat center;
+}
+
+.linkedin {
+    background: url(icons/icon11.png) no-repeat center;
+}
+.button {
+    float: left;
+    border: 2px solid gray;
+    width: 48px;
+    height: 48px;
+    border-radius: 4px 4px;
+    line-height: 40px;
+    background-color: #2a2a2a;
+}
+.left {
+    margin-left: 1%;
+}
+
+.telegram:hover {
+    border-color: red;
+}
+.facebook:hover {
+    border-color: red;
+}
+.google:hover {
+    border-color: red;
+}
+.linkedin:hover {
+    border-color: red;
+}
+.twitter:hover {
+    border-color: red;
+}
+.subscribe:hover {
+    border-color: red;
+}
+
+a:visited {
+    color: white;
+    cursor: pointer;
+}
+a:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.textblock {
+    width:80%;
+    height: auto;
+    text-align: center;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 20px;
+    color: #828282
+}
+
+.description {
+    margin-top: 40px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #c3c3c3
+} 
+.emaillabel {
+    width: 50%;
+    height: 55px;
+    margin-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px;
+    padding-left: 20px;
+    border:0px;
+    color:#c6c6c6;
+    background-color: #515151;
+}
+.label {
+    margin-top:1.1%;
+    width: 60%;
+    height: 55px;
+    margin-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding-left: 20px;
+    border: 1px solid gray;
+    border-radius: 4px 4px;
+    color: #828282;
+    background-color: white;
+}
+    .label:hover {
+        border: 1px solid #1287bf;
+    }
+.subscribe {
+    margin-top: 45px;
+    border: 2px solid gray;
+    width: 150px;
+    height: 50px;
+    border-radius: 4px 4px;
+    line-height: 40px;
+    color: white;
+    font-size: 20px;
+    background-color: #2a2a2a;
+}
+.submit {
+    width: 20%;
+    height: 12.2%;
+    margin-top:30px;
+    font-size:80%;
+    border: 0px;
+    color: white;
+    border-radius: 4px 4px;
+    background-color: #de2b24;
+}
+
+
+.intogrey {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #cecece;
+    font-size: 25px;
+}
